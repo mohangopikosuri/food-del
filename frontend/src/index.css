@@ -7,6 +7,46 @@
   font-family: 'Outfit', sans-serif;
   scroll-behavior: smooth;
 }
+body.dark-mode {
+  background: #181818 !important;
+  color: #f5f5f5 !important;
+}
+
+body.dark-mode .app {
+  background: #222;
+  color: #eee;
+}
+
+/* Navbar and Footer (customize as needed) */
+body.dark-mode .navbar,
+body.dark-mode .footer {
+  background: #222 !important;
+  color: #eee !important;
+}
+
+/* Cards, modals, and popups */
+body.dark-mode .card,
+body.dark-mode .modal,
+body.dark-mode .popup {
+  background: #23272f !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
+
+/* Buttons */
+body.dark-mode button {
+  background: #333 !important;
+  color: #fff !important;
+  border-color: #555 !important;
+}
+
+/* Override react-toastify dark mode */
+body.dark-mode .Toastify__toast {
+  background: #23272f !important;
+  color: #fff !important;
+}
+
+/* Add additional custom styles as needed for your components */
 
 body {
   min-height: 100vh;
